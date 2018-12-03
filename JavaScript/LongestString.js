@@ -11,3 +11,4 @@ function longestString(arr) {
     }
     return longest
   }
+// this simply compares each string in the array to the current longest string. If the new string is longer than the current longest it replaces as the longest
