@@ -23,7 +23,7 @@ function reverseNumber(n) {
 
 // fancy base 10 way
 function reverseNumber(n) {
-  let result =0 // gives us a starting point
+  let result = 0 // gives us a starting point
   while (n > 0) { // as long as n is above zero
     result = n * 10 
     result += n % 10 
