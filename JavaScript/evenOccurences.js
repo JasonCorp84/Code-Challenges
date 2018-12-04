@@ -3,7 +3,7 @@
 // return null if there are no even-occurrence items
 
 function evenOccurrence(arr) {
- let storage = {}
+ let storage = {} // empty to hold results
  arr.forEach(function(value, index) {
    storage[value] = storage[value] + 1 || 1
  })
