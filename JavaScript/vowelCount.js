@@ -14,7 +14,7 @@ function vowelCount(str) {
   const vowels = ['a', 'e', 'i', 'o', 'u'] // define which are values
   let count = 0 // start here
   str.split('').forEach(letter => { // split string into array of letters and iterate through it
-    vowels.includes(letter.toLowerCase()) ? count++ : false // if it includes any of the defined vowels increase count by one, if not return false
+    vowels.includes(letter.toLowerCase()) ? count++ : false // if the current letter converted to lowercase appears in the vowels array,  increase count by one, if not return false
   })
   return count
 }
