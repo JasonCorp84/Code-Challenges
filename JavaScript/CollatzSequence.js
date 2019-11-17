@@ -1,6 +1,8 @@
-/*  Today you will write a function which takes a positive integer number as an argument and returns it's "Collatz chain". The Collatz chain will stop at one.
+/*  Today you will write a function which takes a positive integer number as an argument and returns it's "Collatz chain".
+The Collatz chain will stop at one.
 
-Named after Lothar Collatz, the "Collatz conjecture" defines a sequence of numbers. That sequence is the Collatz "chain". Starting with a positive integer, the Collatz conjecture determines the next integer in the chain until the number 1 is obtained.
+Named after Lothar Collatz, the "Collatz conjecture" defines a sequence of numbers. That sequence is the Collatz "chain". 
+Starting with a positive integer, the Collatz conjecture determines the next integer in the chain until the number 1 is obtained.
 
 Your Collatz algorithm will evaluate the integer and then, depending on the condition of the integer, perform the following tasks:
 
